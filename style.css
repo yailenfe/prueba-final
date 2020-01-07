@@ -1,0 +1,129 @@
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: medium;
+        text-decoration-line: none;
+    }
+    
+    .cabezera .menu-cental li {
+        display: inline-block;
+    }
+    
+    .cabezera {
+        background-color: #f1f1f1;
+        padding: 15px;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+    
+    .iconos {
+        background-image: url(2.jpg);
+        border-radius: 50%;
+        background-position: right bottom;
+        width: 17px;
+        height: 17px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .iconos i {
+        padding-right: 50px;
+        padding-left: 7px;
+        justify-items: stretch;
+    }
+    
+    .menu-migajas ul li::after {
+        content: " /";
+        padding: 7px;
+    }
+    
+    .menu-migajas {
+        text-align: left;
+    }
+    
+    span {
+        color: #0e1df1;
+    }
+    
+    .navegacion {
+        display: -webkit-flex;
+        display: flex;
+        height: 700px;
+    }
+    
+    .menu-derecha {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        background-color: #ebebeb;
+        display: inline-block;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+    
+    .menu-derecha ul li i {
+        margin: 15px;
+    }
+    
+    .menu-derecha a i {
+        margin: 15px;
+    }
+    
+    .menu-derecha li.menu-seleccionado {
+        background-color: #d8d8d8;
+        border-left: 2px solid #d8d8d8;
+    }
+    
+    .menu-derecha li.menu-seleccionado-1 {
+        background-color: #bcbcbc;
+        border-left: 3px solid #3178cb;
+    }
+    
+    .menu-derecha a li .no seleccinado {
+        border-left: 2px solid#ebebeb;
+    }
+    
+    .menu-derecha .menu1 {
+        border-left: 2px solid#ebebeb;
+    }
+    
+    .menu-derecha .menu2 {
+        border-left: 4px solid#ebebeb;
+        font-weight: bold;
+    }
+    
+    .menu-derecha ul li:hover {
+        background: #bcbcbc;
+        cursor: pointer;
+    }
+    
+    .menu-medium {
+        -webkit-flex: 2;
+        -ms-flex: 1;
+        flex: 1;
+        background-color: yellow;
+    }
+    
+    .menu-medium-1 {
+        text-align: start;
+        justify-content: left;
+    }
+    
+    .menu-medium ul li {
+        display: inline-block;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: lawngreen;
+        padding-left: 20px;
+    }
+    
+    .menu-izquirda {
+        -webkit-flex: 1;
+        flex: 2;
+        background-color: violet;
+    }
