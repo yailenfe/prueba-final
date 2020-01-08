@@ -1,129 +1,192 @@
-    * {
-        padding: 0;
-        margin: 0;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: medium;
-        text-decoration-line: none;
-    }
-    
-    .cabezera .menu-cental li {
-        display: inline-block;
-    }
-    
-    .cabezera {
-        background-color: #f1f1f1;
-        padding: 15px;
-        font-size: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
-    }
-    
-    .iconos {
-        background-image: url(2.jpg);
-        border-radius: 50%;
-        background-position: right bottom;
-        width: 17px;
-        height: 17px;
-        display: flex;
-        justify-content: flex-end;
-    }
-    
-    .iconos i {
-        padding-right: 50px;
-        padding-left: 7px;
-        justify-items: stretch;
-    }
-    
-    .menu-migajas ul li::after {
-        content: " /";
-        padding: 7px;
-    }
-    
-    .menu-migajas {
-        text-align: left;
-    }
-    
-    span {
-        color: #0e1df1;
-    }
-    
-    .navegacion {
-        display: -webkit-flex;
-        display: flex;
-        height: 700px;
-    }
-    
-    .menu-derecha {
-        -webkit-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
-        background-color: #ebebeb;
-        display: inline-block;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
-    }
-    
-    .menu-derecha ul li i {
-        margin: 15px;
-    }
-    
-    .menu-derecha a i {
-        margin: 15px;
-    }
-    
-    .menu-derecha li.menu-seleccionado {
-        background-color: #d8d8d8;
-        border-left: 2px solid #d8d8d8;
-    }
-    
-    .menu-derecha li.menu-seleccionado-1 {
-        background-color: #bcbcbc;
-        border-left: 3px solid #3178cb;
-    }
-    
-    .menu-derecha a li .no seleccinado {
-        border-left: 2px solid#ebebeb;
-    }
-    
-    .menu-derecha .menu1 {
-        border-left: 2px solid#ebebeb;
-    }
-    
-    .menu-derecha .menu2 {
-        border-left: 4px solid#ebebeb;
-        font-weight: bold;
-    }
-    
-    .menu-derecha ul li:hover {
-        background: #bcbcbc;
-        cursor: pointer;
-    }
-    
-    .menu-medium {
-        -webkit-flex: 2;
-        -ms-flex: 1;
-        flex: 1;
-        background-color: yellow;
-    }
-    
-    .menu-medium-1 {
-        text-align: start;
-        justify-content: left;
-    }
-    
-    .menu-medium ul li {
-        display: inline-block;
-        display: flex;
-        justify-content: space-around;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        background-color: lawngreen;
-        padding-left: 20px;
-    }
-    
-    .menu-izquirda {
-        -webkit-flex: 1;
-        flex: 2;
-        background-color: violet;
-    }
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    text-decoration-line: none;
+}
+
+.cabezera .menu-cental li {
+    display: inline-block;
+}
+
+.cabezera {
+    background-color: #f1f1f1;
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.iconos {
+    background-image: url(2.jpg);
+    border-radius: 50%;
+    background-position: right bottom;
+    width: 17px;
+    height: 17px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iconos i {
+    padding-right: 50px;
+    padding-left: 7px;
+    justify-items: stretch;
+}
+
+.menu-migajas ul li::after {
+    content: " /";
+    padding: 7px;
+}
+
+.menu-migajas {
+    text-align: left;
+    opacity: .4;
+}
+
+span {
+    color: #0e1df1;
+}
+
+.navegacion {
+    display: -webkit-flex;
+    display: flex;
+    height: 700px;
+}
+
+.menu-derecha {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #ebebeb;
+    display: inline-block;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.menu-derecha ul li i {
+    margin: 15px;
+}
+
+.menu-derecha a i {
+    margin: 15px;
+}
+
+.menu-derecha li.menu-seleccionado {
+    background-color: #d8d8d8;
+    border-left: 2px solid #d8d8d8;
+}
+
+.menu-derecha li.menu-seleccionado-1 {
+    background-color: #bcbcbc;
+    border-left: 3px solid #3178cb;
+}
+
+.menu-derecha a li .no seleccinado {
+    border-left: 2px solid#ebebeb;
+}
+
+.menu-derecha .menu1 {
+    border-left: 2px solid#ebebeb;
+}
+
+.menu-derecha .menu2 {
+    border-left: 4px solid#ebebeb;
+    font-weight: bold;
+}
+
+.menu-derecha ul li:hover {
+    background: #bcbcbc;
+    cursor: pointer;
+}
+
+.menu-medium {
+    -webkit-flex: 2;
+    -ms-flex: 1;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: flex-start;
+}
+
+.menu-medium-1 {
+    display: flex;
+    flex-direction: row;
+    width: 480px;
+    justify-content: start;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.menu-medium .menu-plus-1 li {
+    display: flex;
+    text-align-last: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    width: 190px;
+    height: 20px;
+}
+
+.menu-medium .menu-plus li {
+    display: inline-block;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    text-align: initial;
+    width: 240px;
+    height: 20px;
+}
+
+input#buscador {
+    position: absolute;
+    height: 35px;
+    width: 453px;
+    outline: none;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+    padding-left: 25px;
+}
+
+ ::-webkit-input-placeholder {
+    text-align: left;
+    opacity: .3;
+    color: black;
+}
+
+i#icono-buscador {
+    position: relative;
+    width: 15px;
+    height: 5px;
+    padding-left: 5px;
+    padding-top: 12px;
+    justify-content: center;
+    color: #7592cc;
+}
+
+i#icono-mas span {
+    color: black;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-right: 3px;
+    padding-left: 5px;
+}
+
+i#icono-mas {
+    border-left: 1px solid black;
+    padding-left: 20px;
+    color: #6e93d2;
+    font-size: 18px;
+}
+
+i#icono-seleccionado {
+    border-bottom: 2px solid #3b76bf;
+    width: 23px;
+}
+
+.menu-izquirda {
+    -webkit-flex: 1;
+    flex: 2;
+    background-color: violet;
+}
