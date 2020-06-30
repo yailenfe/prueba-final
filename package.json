@@ -1,0 +1,23 @@
+{
+    "name": "yai-calc",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "client-install": "yarn install --prefix client",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yailenfe/calculadora-javascript.git"
+    },
+    "author": "Yailen Fajardo Egues",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yailenfe/calculadora-javascript/issues"
+    },
+    "homepage": "https://github.com/yailenfe/calculadora-javascript#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
